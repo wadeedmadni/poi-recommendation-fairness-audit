@@ -1,0 +1,17 @@
+venues with income: 29,080
+group  venue_supply%   demand%
+low            33.8      27.7
+mid            33.3      34.2
+high           33.0      38.1
+
+--- popularity : recommendation exposure ---
+group     rec%   demand%  exposure_ratio
+low       37.5      27.7            1.35
+mid       12.5      34.2            0.37
+high      50.0      38.1            1.31
+
+--- personalized (L=0.5) : recommendation exposure ---
+group     rec%   demand%  exposure_ratio
+low       29.5      27.7            1.06
+mid       32.7      34.2            0.96
+high      37.9      38.1            0.99

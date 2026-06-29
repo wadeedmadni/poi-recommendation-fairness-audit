@@ -1,0 +1,8 @@
+group   users  med_checkins  mean_unique  unique_ratio  norm_entropy
+low       346           168         85.7         0.428         0.832
+mid       345           149         86.5         0.499         0.856
+high      344           144         83.6         0.494         0.844
+
+unique_ratio: low-high diff = -0.066  (permutation p = 0.0000)
+
+norm_entropy: low-high diff = -0.012  (permutation p = 0.1076)

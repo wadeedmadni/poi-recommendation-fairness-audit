@@ -1,0 +1,25 @@
+users=1035 (>= 10 check-ins); test steps total ~ 44225
+
+=== popular ===  (group    HR@5   HR@10     MRR)
+            low     0.014   0.020   0.009
+            mid     0.021   0.031   0.015
+            high    0.022   0.036   0.016
+   gap h5   high-low=+0.009  p=0.0080  CI[+0.002,+0.015]  **SIG**
+   gap h10  high-low=+0.016  p=0.0004  CI[+0.007,+0.025]  **SIG**
+   gap rr   high-low=+0.007  p=0.0000  CI[+0.003,+0.011]  **SIG**
+
+=== markov ===  (group    HR@5   HR@10     MRR)
+            low     0.195   0.227   0.140
+            mid     0.149   0.173   0.107
+            high    0.172   0.199   0.128
+   gap h5   high-low=-0.023  p=0.1182  CI[-0.053,+0.006]  ns
+   gap h10  high-low=-0.028  p=0.0660  CI[-0.057,+0.002]  ns
+   gap rr   high-low=-0.011  p=0.3084  CI[-0.033,+0.011]  ns
+
+=== userhist ===  (group    HR@5   HR@10     MRR)
+            low     0.354   0.442   0.242
+            mid     0.307   0.373   0.211
+            high    0.337   0.405   0.242
+   gap h5   high-low=-0.017  p=0.2942  CI[-0.050,+0.017]  ns
+   gap h10  high-low=-0.037  p=0.0328  CI[-0.072,-0.005]  **SIG**
+   gap rr   high-low=+0.000  p=0.9972  CI[-0.027,+0.024]  ns

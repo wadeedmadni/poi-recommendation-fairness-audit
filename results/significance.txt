@@ -1,0 +1,17 @@
+
+=== popular ===
+  h5   gap(high-low)=+0.023  p=0.1112  95%CI[-0.006,+0.052]  ns
+  h10  gap(high-low)=+0.018  p=0.2674  95%CI[-0.011,+0.050]  ns
+  rr   gap(high-low)=+0.011  p=0.0808  95%CI[-0.001,+0.025]  ns
+
+=== markov ===
+  h5   gap(high-low)=-0.051  p=0.1108  95%CI[-0.115,+0.007]  ns
+  h10  gap(high-low)=-0.059  p=0.0700  95%CI[-0.120,+0.004]  ns
+  rr   gap(high-low)=-0.036  p=0.1416  95%CI[-0.086,+0.014]  ns
+
+=== userhist ===
+  h5   gap(high-low)=-0.047  p=0.2028  95%CI[-0.117,+0.026]  ns
+  h10  gap(high-low)=-0.056  p=0.1400  95%CI[-0.131,+0.014]  ns
+  rr   gap(high-low)=-0.011  p=0.6806  95%CI[-0.067,+0.042]  ns
+
+(low n=346, high n=344)
