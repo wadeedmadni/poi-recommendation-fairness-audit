@@ -1,0 +1,20 @@
+# Raw datasets — too large / under original licenses. See README for download links.
+data/
+*.zip
+*.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db
